@@ -49,7 +49,7 @@ function afficherPanier() {
         const sousTotalAffiche = convertirPrix(sousTotalEUR);
 
         item.innerHTML = `
-            <img src="../../im/${produit.img}" alt="${produit.name}" 
+           <img src="../im/${produit.img}" alt="${produit.name}" 
                  onerror="this.src='https://via.placeholder.com/80x80?text=Image'"
                  style="width:80px; height:80px; object-fit:cover; border-radius:10px;">
             <div class="info-produit">
